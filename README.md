@@ -19,7 +19,7 @@ Let's say you have an SVG available at some URL, and you'd like to inject it int
 ```jsx
 import React from 'react'
 import { render } from 'react-dom'
-import { DomSVG } from 'react-svg'
+import { DomSVG } from 'dom-svg'
 
 render(<DomSVG src="svg.svg" />, document.getElementById('root'))
 ```
